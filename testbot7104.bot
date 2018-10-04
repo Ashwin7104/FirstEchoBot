@@ -1,0 +1,52 @@
+{
+  "name": "testbot7104",
+  "padlock": "PxYbix4ZJDUKM+UuL3Nb3Q==!oz4Mj6vxL4Y4C9xNOYepqYSbVeUDcu7tCYFLdPGQ4liGf19x9fwcMo3EqIU+ZPkp",
+  "version": "2.0",
+  "services": [
+    {
+      "tenantId": "3d1552b8-8bfb-43d6-b3a6-cb9d0182c270",
+      "subscriptionId": "227aaa19-de07-4b26-82a1-3490591a1830",
+      "resourceGroup": "Testbot",
+      "serviceName": "testbot7104",
+      "type": "abs",
+      "name": "testbot7104",
+      "id": "1"
+    },
+    {
+      "connectionString": "YOJiwpom5VaTmFhhJyenlA==!AylF50Afy4b2GrNGlKWpr7DY+Xvnd3vXkV/vCsCn/hOWGL9rV9KiepHOa8wDTHQ6SufAvW6JzrXtSzMgnczHqkRa0PtU1AVhemy29aHHq3MuqhsN2xFq3GXNAngugVditXWXJsT6uwyKTb97mH/L0OR+eABRW6iDVuyRlOO3BLzW9xNQyO+2W8P+q523vyBxzFOvyzNRMu94cyrxehvHyA==",
+      "tenantId": "3d1552b8-8bfb-43d6-b3a6-cb9d0182c270",
+      "subscriptionId": "227aaa19-de07-4b26-82a1-3490591a1830",
+      "resourceGroup": "Testbot",
+      "serviceName": "testbot710488d1",
+      "type": "blob",
+      "id": "2"
+    },
+    {
+      "appId": "",
+      "appPassword": "",
+      "endpoint": "http://localhost:3978/api/messages",
+      "type": "endpoint",
+      "name": "development",
+      "id": "3"
+    },
+    {
+      "appId": "c071ea91-113b-455b-b492-8ff715c4bbe6",
+      "appPassword": "rGWB2xRXbs0JTzC2BlmOXw==!Hfl/edXQBWa9vyhx/yhNsuhfTfLIO0JaTtS0VlPa9ms=",
+      "endpoint": "https://testbot7104.azurewebsites.net/api/messages",
+      "type": "endpoint",
+      "name": "production",
+      "id": "4"
+    },
+    {
+      "instrumentationKey": "I6j4Z/IUBmo1HUw1jz5THA==!61NcjtkaP3+j1ZeEia/dgaHW0zu1f89cUR6LaI9PSYOuswM7KN6rIrbgvLZEezFy",
+      "applicationId": "18b88e87-daf3-48b0-8b3d-376813c6bc3f",
+      "apiKeys": {},
+      "tenantId": "3d1552b8-8bfb-43d6-b3a6-cb9d0182c270",
+      "subscriptionId": "227aaa19-de07-4b26-82a1-3490591a1830",
+      "resourceGroup": "Testbot",
+      "serviceName": "testbot7104k4cocc",
+      "type": "appInsights",
+      "id": "5"
+    }
+  ]
+}
