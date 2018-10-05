@@ -70,12 +70,12 @@ let conversationState;
 // For local development, in-memory storage is used.
 // CAUTION: The Memory Storage used here is for local bot debugging only. When the bot
 // is restarted, anything stored in memory will be gone.
-//const memoryStorage = new MemoryStorage();
-//conversationState = new ConversationState(memoryStorage);
+const memoryStorage = new MemoryStorage();
+conversationState = new ConversationState(memoryStorage);
 
 // CAUTION: You must ensure your product environment has the NODE_ENV set
 //          to use the Azure Blob storage or Azure Cosmos DB providers.
- const { BlobStorage } = require('botbuilder-azure');
+ /*const { BlobStorage } = require('botbuilder-azure');
 // Storage configuration name or ID from .bot file
  const STORAGE_CONFIGURATION_ID = 'testbot710488d1';
 // // Default container name
@@ -86,7 +86,7 @@ let conversationState;
      containerName: (blobStorageConfig.container || DEFAULT_BOT_CONTAINER),
      storageAccountOrConnectionString: blobStorageConfig.connectionString,
  });
- conversationState = new ConversationState(blobStorage);
+ conversationState = new ConversationState(blobStorage);*/
 
 // Create the main dialog.
 const bot = new EchoBot(conversationState);
